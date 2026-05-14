@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(node -e \"require\\('./node_modules/framer-motion/dist/cjs/index.js'\\); console.log\\('framer-motion ok'\\)\")",
+      "Bash(npx vite *)"
+    ]
+  }
+}
