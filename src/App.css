@@ -458,15 +458,3 @@
   transition: all 0.2s;
 }
 .type-badge:hover { background: #F0FDF4; border-color: #B7E4B8; color: #1F5F2E; }
-
-/ *    % %  H i d e   S c r o l l b a r   f o r   C a r o u s e l    % %  * / 
- . h i d e - s c r o l l b a r : : - w e b k i t - s c r o l l b a r   { 
-     d i s p l a y :   n o n e ;   / *   C h r o m e ,   S a f a r i ,   O p e r a   * / 
- } 
- 
- . h i d e - s c r o l l b a r   { 
-     - m s - o v e r f l o w - s t y l e :   n o n e ;   / *   I E   a n d   E d g e   * / 
-     s c r o l l b a r - w i d t h :   n o n e ;   / *   F i r e f o x   * / 
- } 
- 
- 
