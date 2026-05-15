@@ -183,7 +183,8 @@ export default function Hero() {
                   <div className="live-dot-ring" />
                   <div style={{ width: 8, height: 8, background: '#1F5F2E', borderRadius: '50%', position: 'relative' }} />
                 </div>
-                Trusted by 500+ Restaurants · Free Setup Available
+                {/* Trusted by 500+ Restaurants ·*/}
+                  Free Setup Available
               </div>
             </motion.div>
 
