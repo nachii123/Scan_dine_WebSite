@@ -96,7 +96,7 @@ export default function WhyChoose() {
         {/* Bottom CTA nudge */}
         <motion.div {...fadeUp(0.2)} style={{ textAlign: 'center', marginTop: 52 }}>
           <p style={{ fontSize: 15, color: '#5F6368', marginBottom: 20 }}>
-            Join <strong style={{ color: '#111' }}>500+ restaurants</strong> already winning with ScanDine.
+            Join <strong style={{ color: '#111' }}>7+ restaurants</strong> already winning with ScanDine.
           </p>
           <motion.a
             href="#pricing"

@@ -72,7 +72,7 @@ export default function CTA() {
               fontSize: 17.5, color: 'rgba(255,255,255,0.62)', lineHeight: 1.7,
               maxWidth: 520, margin: '0 auto 16px',
             }}>
-              Join 500+ restaurants growing with ScanDine. Setup takes under an hour.
+              Join 7+ restaurants growing with ScanDine. Setup takes under an hour.
               Your first results show within the first week.
             </p>
 

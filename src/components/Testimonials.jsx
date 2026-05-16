@@ -37,25 +37,25 @@ const QuoteIcon = () => (
 const TESTIMONIALS = [
   {
     quote: "ScanDine completely transformed how we run service. Our orders used to get lost or misheard — now every order hits the kitchen perfectly. Revenue is up 22% since we switched.",
-    name: 'Raj Malhotra',
-    role: 'Owner, The Spice Garden',
-    city: 'Mumbai',
-    initials: 'RM',
+    name: 'Sanjay Thombare',
+    role: 'Owner, Annupurna Hotel',
+    city: 'Aurangabad',
+    initials: 'ST',
     color: '#1F5F2E',
   },
   {
     quote: "The analytics alone are worth every rupee. I can see exactly which dishes drive the most margin, which hours need more staff, and what our customers actually love. It's like having a data team.",
     name: 'Priya Sharma',
-    role: 'Operations Head, Cloud Kitchen Co.',
+    role: 'Operations Head, Iron & Timber Lounge',
     city: 'Bangalore',
     initials: 'PS',
     color: '#2E7D32',
   },
   {
-    quote: "We run 3 outlets across Delhi and managing all of them from one dashboard was something I only dreamed about. ScanDine made it real. Onboarding took less than 45 minutes.",
+    quote: "ScanDine completely transformed how we run service at our Bangalore outlet. Earlier, orders were often delayed or miscommunicated — now every order reaches the kitchen instantly and accurately. Service has become much smoother and customer satisfaction has noticeably improved.",
     name: 'Arun Mehta',
-    role: 'F&B Director, Grand Palace Hotel',
-    city: 'Delhi',
+    role: 'F&B Director, Oota Bangalore',
+    city: 'Bangalore',
     initials: 'AM',
     color: '#174826',
   },
@@ -106,8 +106,8 @@ export default function Testimonials() {
           }}
         >
           {[
-            { val: '500+', label: 'Restaurants' },
-            { val: '2M+',  label: 'Orders Processed' },
+            { val: '7+', label: 'Restaurants' },
+            { val: '1300+',  label: 'Orders Processed' },
             { val: '4.9',  label: 'Avg App Rating' },
             { val: '98%',  label: 'Customer Satisfaction' },
           ].map(({ val, label }) => (
