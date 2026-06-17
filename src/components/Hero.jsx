@@ -226,25 +226,7 @@ export default function Hero() {
 
             {/* CTA Buttons */}
             <motion.div {...fade(0.28)} className="hero-actions" style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginBottom: 20 }}>
-              {/* Primary — glowing */}
-              <motion.a
-                href="#pricing"
-                className="btn-glow"
-                whileHover={{ scale: 1.025 }}
-                whileTap={{ scale: 0.97 }}
-                style={{
-                  display: 'inline-flex', alignItems: 'center', gap: 8,
-                  background: '#1F5F2E', color: '#fff',
-                  fontWeight: 700, fontSize: 15.5, padding: '15px 30px',
-                  borderRadius: 14, textDecoration: 'none', letterSpacing: '-0.01em',
-                  height: 52, transition: 'background 0.2s',
-                }}
-                onMouseEnter={e => (e.currentTarget.style.background = '#174826')}
-                onMouseLeave={e => (e.currentTarget.style.background = '#1F5F2E')}
-              >
-                Book Your Free Demo
-                <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5h9M9 4l3.5 3.5L9 11" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/></svg>
-              </motion.a>
+
 
               {/* Secondary */}
               <motion.a
